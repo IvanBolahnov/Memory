@@ -1,0 +1,24 @@
+main {
+  .section__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    section {
+      width: 100%;
+      max-width: 1200px;
+      color: #fff;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .row {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

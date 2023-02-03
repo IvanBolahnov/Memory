@@ -1,0 +1,41 @@
+main {
+  .section__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    section {
+      width: 100%;
+      max-width: 1200px;
+      color: #fff;
+    }
+  }
+}
+
+.section1 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+
+  &__left {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 19px;
+  }
+}
+
+.section2 {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    color: #FFA36F;
+    text-decoration: none;
+  }
+}
